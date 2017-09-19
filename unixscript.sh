@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 ## Install pre-requisite packages
 yum check-update
 yum install -y gcc libffi-devel python-devel openssl-devel epel-release
