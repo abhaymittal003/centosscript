@@ -8,4 +8,4 @@ pip install "azure==2.0.0rc5" msrestazure
 sleep 5
 yum install -y ansible
 pip install packaging
-#complete
+exit 0
