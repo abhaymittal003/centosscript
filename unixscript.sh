@@ -10,4 +10,5 @@ pip install "azure==2.0.0rc5" msrestazure >> /tmp/install.log
 sleep 5
 yum install -y ansible >> /tmp/install.log
 pip install packaging >> /tmp/install.log
+pip install jmespath  >> /tmp/install.log
 exit 0
