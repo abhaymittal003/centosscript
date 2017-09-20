@@ -11,4 +11,5 @@ sleep 5
 yum install -y ansible >> /tmp/install.log
 pip install packaging >> /tmp/install.log
 pip install jmespath  >> /tmp/install.log
+yum install git  >> /tmp/install.log
 exit 0
