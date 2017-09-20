@@ -10,7 +10,9 @@ pip install "azure==2.0.0rc5" msrestazure >> /tmp/install.log
 sleep 5
 yum install -y ansible >> /tmp/install.log
 pip install packaging >> /tmp/install.log
+echo " jason filter  Installation"  >> /tmp/install.log
 pip install jmespath  >> /tmp/install.log
 sleep 5
+echo " git Installation"  >> /tmp/install.log
 yum install git  >> /tmp/install.log
 exit 0
